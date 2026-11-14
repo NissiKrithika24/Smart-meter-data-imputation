@@ -1,0 +1,9 @@
+Method,Category,Condition,Style,MAE,RMSE,MAPE,Note
+MissForest,ML,30% MAR (mid-eval month),unspecified,0.0040,0.0107,24.16,Mid-eval best result; single condition
+XGBoost,ML,30% MAR (mid-eval month),unspecified,0.0041,0.0110,25.06,Mid-eval result; single condition
+EM-GMM,Statistical,30% MAR (mid-eval month),unspecified,0.0068,0.0128,11.44,Mid-eval result; single condition
+GRU,DL,30% MAR (mid-eval month),unspecified,0.0312,0.0650,30.33,Mid-eval result; single condition (Bi-GRU)
+CSDI,Diffusion,30% MAR (Mar 2025 pilot),feature,0.004313,0.011040,8.630121,Exact matched condition - kWh/MAR/30%/feature
+CSDI,Diffusion,30% MAR (Mar 2025 pilot),block,0.018536,0.056792,26.019392,Exact matched condition - kWh/MAR/30%/block
+PriSTI,Diffusion,30% MAR (Mar 2025 pilot),feature,0.013472,0.030044,22.609884,Exact matched condition - kWh/MAR/30%/feature
+PriSTI,Diffusion,30% MAR (Mar 2025 pilot),block,0.032054,0.067369,50.664837,Exact matched condition - kWh/MAR/30%/block
