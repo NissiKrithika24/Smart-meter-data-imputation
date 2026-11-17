@@ -1,0 +1,17 @@
+Method,Category,Style,Condition,MAE,RMSE,MAPE
+MissForest,ML,unspecified,30% MAR (mid-eval month),0.004,0.0107,24.16
+XGBoost,ML,unspecified,30% MAR (mid-eval month),0.0041,0.011,25.06
+EM-GMM,Statistical,unspecified,30% MAR (mid-eval month),0.0068,0.0128,11.44
+GRU,DL,unspecified,30% MAR (mid-eval month),0.0312,0.065,30.33
+CSDI,Diffusion,feature,30% MAR (Mar 2025 pilot),0.004313,0.01104,8.63
+CSDI,Diffusion,block,30% MAR (Mar 2025 pilot),0.018536,0.056792,26.019
+PriSTI,Diffusion,feature,30% MAR (Mar 2025 pilot),0.013472,0.030044,22.61
+PriSTI,Diffusion,block,30% MAR (Mar 2025 pilot),0.032054,0.067369,50.665
+SAITS,Self-attention,feature,30% MAR (Mar 2025 pilot),0.004001,0.00925,8.808
+SAITS,Self-attention,block,30% MAR (Mar 2025 pilot),0.017051,0.048312,27.223
+Transformer,Self-attention,feature,30% MAR (Mar 2025 pilot),0.004569,0.010224,9.944
+Transformer,Self-attention,block,30% MAR (Mar 2025 pilot),0.018099,0.052627,28.528
+LinearInterp,Interpolation,feature,30% MAR (Mar 2025 pilot),0.013789,0.042423,20.673
+LinearInterp,Interpolation,block,30% MAR (Mar 2025 pilot),0.019183,0.04895,35.686
+SAITS-paper-mask,Self-attention (ablation),feature,30% MAR (Mar 2025 pilot),0.003844,0.010082,8.334
+SAITS-paper-mask,Self-attention (ablation),block,30% MAR (Mar 2025 pilot),0.021419,0.061925,28.384
