@@ -1,0 +1,13 @@
+Model,Style,NMAE,NRMSE,MAPE
+CSDI,block,0.2337,0.6399,26.7362
+CSDI,feature,0.0944,0.2919,9.6221
+PriSTI,block,0.4562,0.8501,67.0571
+PriSTI,feature,0.3205,0.5803,44.0795
+SAITS,block,0.2157,0.565,25.8247
+SAITS,feature,0.0904,0.2523,9.907
+Transformer,block,0.2275,0.5953,27.8921
+Transformer,feature,0.1012,0.276,11.4806
+SAITS-paper-mask,block,0.2777,0.7103,27.3492
+SAITS-paper-mask,feature,0.1259,0.3263,12.111
+LinearInterp,block,0.2515,0.605,34.6771
+LinearInterp,feature,0.2375,0.5868,31.177
